@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 0.1fr));
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.flex-item {
+    height: 145px;
+    width: 145px;
+    margin: 2px ;
+    float: left;
+    text-align: center;
+}
+
+.pensandoAdoptar {
+    color: #013487;
+}
