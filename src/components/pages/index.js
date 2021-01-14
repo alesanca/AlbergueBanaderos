@@ -1,9 +1,10 @@
 import React from 'react';
+import PensandoAdoptar from './HomeSections/pensando-adoptar';
 
 const Home = () => {
     return (
         <>
-        <h1>Home</h1>
+        <PensandoAdoptar />
         </>
     )
 }
