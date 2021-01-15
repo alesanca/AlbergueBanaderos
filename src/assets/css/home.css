@@ -1,20 +1,51 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 0.1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 0.1fr));
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    float: left;
+    margin-left: 10%;
 }
 
 .flex-item {
-    height: 145px;
-    width: 145px;
-    margin: 2px ;
+    height: 300px;
+    width: 300px;
     float: left;
     text-align: center;
 }
 
 .pensandoAdoptar {
     color: #013487;
+    width: 100%;
+}
+
+.flex-item img{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.MC_btn {
+    height: 37px;
+    width: auto;
+    color: #013487;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #013487;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.14), 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.2);
+    background-color: none;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5px 16.5px 0.5px 16.5px;
+    margin-top: 24px;
+}
+
+.pensandoAdoptar h2 {
+    text-align: center;
 }

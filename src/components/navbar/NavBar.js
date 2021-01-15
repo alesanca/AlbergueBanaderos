@@ -6,7 +6,7 @@ import '../../assets/css/header.css'
 
 const NavBar = () => {
     return (
-        <>
+        <div className="header">
             <Nav>
                 <NavLink to="/">
                     <img src={Logo} alt="Logo"></img>
@@ -21,7 +21,7 @@ const NavBar = () => {
                     <NavLink to="/animales-perdidos" activeStyle>Animales perdidos</NavLink>
                 </NavMenu>
             </Nav>
-        </>
+        </div>
     )
 }
 
