@@ -49,3 +49,12 @@
 .pensandoAdoptar h2 {
     text-align: center;
 }
+
+.conoceAnimales {
+    padding: 2em;
+    background-color: #FDF6E6;
+    color: #404040;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
