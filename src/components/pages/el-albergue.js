@@ -1,9 +1,13 @@
 import React from 'react';
+import  entrada  from '../../assets/images/entrada.jpg';
+import '../../assets/css/elalbergue.css'
+import nuestraMision from './ElAlbergue/nuestra-mision'
 
 const Albergue = () => {
     return (
         <>
-        <h1>Hola soy el albergue</h1>
+        <img src={entrada} alt="entrada"></img>
+        <nuestraMision />
         </>
     )
 }
