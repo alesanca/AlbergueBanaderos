@@ -5,5 +5,10 @@ img {
 }
 
 .nuestraMision {
-    width: 100%;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    color: #404040;
+    background: #ffffff;
+    height: 1200;
+    width: 2319;
 }
