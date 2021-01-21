@@ -8,8 +8,10 @@ const Albergue = () => {
     return (
         <>
         <img src={entrada} alt="entrada"></img>
-        <NuestraMision />
-        <NuestroEquipo />
+        <div className="nuestroContent">
+            <NuestraMision />
+            <NuestroEquipo />
+        </div>
         </>
     )
 }
