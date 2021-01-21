@@ -16,48 +16,56 @@ const instalaciones = () => {
             <h2>Instalaciones </h2>
             <p>El Albergue Insular de Animales sito en la Carretera General del Norte, 86, en el término municipal de Arucas, cuenta con las siguientes instalaciones:</p>
             <ul>
-                <li className="liInstalaciones">
-                    Sala de recepción
-                    <img src={img1} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    Administración
-                    <img src={img2} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    Consulta Veterinaria
-                    <img src={img3} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    Hospital para gatos y perros
-                    <img src={img4} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    Zona de gatos (gatera grande y pequeña) 
-                    <img src={img5} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    53 boxes o estancias
-                    <img src={img6} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    10 corrales
-                    <img src={img7} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    UCI
-                    <img src={img8} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    Almacén
-                    <img src={img9} alt=""></img>
-                </li>
-                <li className="liInstalaciones">
-                    Quirófano
-                    <img src={img10} alt=""></img>
-                </li>
+                <Lista />
             </ul>
         </div>
+    )
+}
+
+const Lista = () => {
+    return (
+        <>
+            <li className="liInstalaciones">
+                Sala de recepción
+                <img src={img1} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                Administración
+                <img src={img2} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                Consulta Veterinaria
+                <img src={img3} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                Hospital para gatos y perros
+                <img src={img4} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                Zona de gatos (gatera grande y pequeña) 
+                <img src={img5} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                53 boxes o estancias
+                <img src={img6} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                10 corrales
+                <img src={img7} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                UCI
+                <img src={img8} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                Almacén
+                <img src={img9} alt=""></img>
+            </li>
+            <li className="liInstalaciones">
+                Quirófano
+                <img src={img10} alt=""></img>
+            </li>
+        </>
     )
 }
 
