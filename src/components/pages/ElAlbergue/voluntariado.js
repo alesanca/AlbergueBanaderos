@@ -38,6 +38,22 @@ const Text = () => {
 const Contact = () => {
     return (
         <>
+        <p>Nombre </p>
+        <input type="text"></input>
+        <br/>
+
+        <p>Email</p>
+        <input type="text"></input>
+        <br/>
+
+        <p>Teléfono</p>
+        <input type="number"></input>
+        <br/>
+
+        <p> Comentarios</p>
+        <input type="number"></input>
+        <br/>
+
         </>
     )
 }
