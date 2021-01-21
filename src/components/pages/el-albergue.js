@@ -4,6 +4,7 @@ import '../../assets/css/elalbergue.css'
 import NuestraMision from './ElAlbergue/nuestra-mision'
 import NuestroEquipo from './ElAlbergue/nuestro-equipo';
 import Instalaciones from './ElAlbergue/instalaciones';
+import Voluntariado from './ElAlbergue/voluntariado';
 
 const Albergue = () => {
     return (
@@ -13,6 +14,7 @@ const Albergue = () => {
             <NuestraMision />
             <NuestroEquipo />
             <Instalaciones />
+            <Voluntariado />
         </div>
         </>
     )
