@@ -43,3 +43,23 @@ img {
     width: 319px;
     padding: 14px;
 }
+
+.liInstalaciones {
+    width: 25%;
+    float: left;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    min-height: 120px;
+    margin-bottom: 2em;
+}
+
+.liInstalaciones img{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 100px;
+    content: "";
+    display: block;
+    position: absolute;
+}
