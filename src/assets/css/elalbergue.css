@@ -19,7 +19,7 @@ img {
     margin-left: 10%;
 }
 
-.nuestraMision h2 , .nuestroEquipo h2 {
+.nuestraMision h2 , .nuestroEquipo h2 , .instalaciones h2{
     color: #013487;
     font-size: 2.2em;
     line-height: 1em;
@@ -32,4 +32,14 @@ img {
     font-family: "Roboto",sans-serif;
     font-weight: 14.4px;
     color: #404040;
+}
+
+.imageEquipo {
+    margin-left: 80px;
+}
+
+.imageEquipo img{
+    height: 319px;
+    width: 319px;
+    padding: 14px;
 }
