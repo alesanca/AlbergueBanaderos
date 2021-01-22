@@ -10,10 +10,12 @@ import Faq from './components/pages/faq';
 import Legislacion from './components/pages/legislacion';
 import Contacto from './components/pages/contacto';
 import AnimalesPerdidos from './components/pages/animales-perdidos' ;
+import Footer from './components/footer';
 
 
 function App() {
   return (
+    <>
     <Router>
 
       <div className="header">
@@ -31,6 +33,10 @@ function App() {
         </Switch>
    
     </Router>
+    <Footer />
+    </>
+
+
   );
 }
 
