@@ -37,24 +37,26 @@ const Text = () => {
 
 const Contact = () => {
     return (
-        <>
-        <p>Nombre </p>
-        <input type="text"></input>
-        <br/>
+        <div className="contactForm">
+        <p>Nombre  
+        <input type="text"></input> </p>
+       
 
-        <p>Email</p>
-        <input type="text"></input>
-        <br/>
+        <p>Email
+        <input type="text"></input> </p>
+        
 
-        <p>Teléfono</p>
-        <input type="number"></input>
-        <br/>
+        <p>Teléfono
+        <input type="number"></input> </p>
+        
 
-        <p> Comentarios</p>
-        <input type="number"></input>
-        <br/>
+        <p> Comentarios 
+        <textarea></textarea></p>
+       
+        <p><input type="checkbox"/> He leído y acepto la política de privacidad</p>
 
-        </>
+        <button>Quiero ser voluntario </button>
+        </div>
     )
 }
 
