@@ -1,0 +1,38 @@
+.footer {
+    width: 100%;
+    background-color: rgba(1, 52, 135, 0.1);
+    height: 272px;
+    display: block;
+    position: relative;
+    margin-top: 2%;
+}
+
+.contacto {
+    border: 2px solid blue;
+    width: 25%;
+    height: 40%;
+}
+
+.footer .contacto p{
+    font-size: small;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.leftSide {
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.leftSide .enlaces{
+    padding-top: 2%;
+}
+
+.leftSide .enlaces a{
+    padding-left: 2%;
+}
+
+.footer img {
+    float: right;
+    padding-right: 3%;
+}
