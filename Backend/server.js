@@ -1,26 +1,28 @@
-var mysql = require('mysql');
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 
-var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "lostAnimals"
-  });
+const app = express();
 
-  con.connect(function(err) {
-    if (err) throw err;
-      console.log("Connected!");
-  });
+var corsOptions = {
+  origin: "http://localhost:8081"
+};
 
-  con.query("SELECT especie , nombre FROM animales", function (err, result, fields) {
-    if (err) throw err;
-    console.log(result);
-  });
+app.use(cors(corsOptions));
 
-  
-  con.query("SELECT * FROM animales", function (err, result, fields) {
-    if (err) throw err;
-    console.log(result);
-  });
+// parse requests of content-type - application/json
+app.use(bodyParser.json());
 
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true }));
 
+// simple route
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to bezkoder application." });
+});
+
+// set port, listen for requests
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
+});
