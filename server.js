@@ -25,6 +25,8 @@ app.get("/", (req, res) => {
 });
 
 // set port, listen for requests
+require("./app/routes/animals.routes")(app);
+
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
