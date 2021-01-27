@@ -26,16 +26,15 @@ class MyComponent extends React.Component {
   
     componentDidMount() {
       fetch("http://localhost:8080/api/animals" , {
-          method: 'GET',
-          mode: 'no-cors'
+          method: 'GET'
       })
-        .then(res => res.json() )
-        .then(
+        .then(res => res.json())
+        .then( 
           (result) => {
             this.setState({
               isLoaded: true,
-              animals: result.animals
-            } );
+              animals: result
+            });
            
           },
           (error) => {
@@ -49,6 +48,7 @@ class MyComponent extends React.Component {
   
     render() {
       const { error, isLoaded, animals } = this.state;
+      console.log({animals});
       if (error) {
         return <div>Error: {error.message}</div>;
       } else if (!isLoaded) {
