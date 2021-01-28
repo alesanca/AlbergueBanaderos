@@ -62,3 +62,23 @@
     padding-top: 7%;
     padding-bottom: 2%;
 }
+
+.individual img {
+    width: 280px;
+    height: 280px;
+}
+
+.escaparate {
+    display: flex;
+    margin-left: 5%;
+}
+
+.individual{
+    margin: 10px;
+    padding: 20px;
+}
+
+.individual h2{
+    background: white;
+    height: 50px;
+}
