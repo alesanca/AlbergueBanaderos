@@ -1,0 +1,11 @@
+.faq img {
+    padding-top: 3%;
+}
+
+.faq .toggleHeader{
+    background: blue;
+}
+
+.faq .toggleBody {
+    color: black;
+}
