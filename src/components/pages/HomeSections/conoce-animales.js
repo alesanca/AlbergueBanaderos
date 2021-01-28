@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../assets/css/header.css';
+import '../../../assets/css/home.css';
 
 const ConoceAnimales = () => {
     return (
@@ -31,11 +31,13 @@ class MyComponent extends React.Component {
         .then(res => res.json())
         .then( 
           (result) => {
+            result.slice(0 , 4);
             this.setState({
               isLoaded: true,
               animals: result
-            });
-           
+            }
+            
+            );
           },
           (error) => {
             this.setState({
@@ -48,20 +50,20 @@ class MyComponent extends React.Component {
   
     render() {
       const { error, isLoaded, animals } = this.state;
-      console.log({animals});
       if (error) {
         return <div>Error: {error.message}</div>;
       } else if (!isLoaded) {
         return <div>Loading...</div>;
       } else {
         return (
-          <ul>
+          <div className="escaparate">
             {animals.map(item => (
-              <li key={item.id}>
-                {item.nombre}
-              </li>
+              <div key={item.id} className="individual">
+                <img src={item.url} alt="foto del animal"></img>
+                <h2>{item.nombre}</h2>
+              </div>
             ))}
-          </ul>
+          </div>
         );
       }
     }
