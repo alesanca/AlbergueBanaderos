@@ -11,6 +11,12 @@ module.exports = (sequelize, Sequelize) => {
         },
         raza: {
             type: Sequelize.STRING
+        },
+        url: {
+            type: Sequelize.STRING
+        },
+        color: {
+            type: Sequelize.STRING
         }
     });
   
