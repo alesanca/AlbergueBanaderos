@@ -5,7 +5,7 @@ import '../../assets/css/animalesPerdidos.css'
 const AnimalesPerdidos = () => {
     return (
         <div className="animalesPerdidos">
-            <h1> Hola soy un animal perdido </h1>
+            <img src={perrete} alt="perrete img"></img>
             <div className="animalesSection">
                 <Chip />
             </div>
