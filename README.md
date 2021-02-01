@@ -47,4 +47,11 @@ node server.js
 
 _Con esto ejecutamos el back y creamos las tablas correspondientes en nuestra base de datos, los datos hay que insertarlos manualmente ya que en la web no hay opción para ello._
 
+_Por otro lado, saltamos al front, para ello debemos realizar estos dos comandos que una vez hechos nos abrirán una ventana de navegador con el proyecto ya ejecutándose._
+
+```
+npm install
+npm start
+```
+
 
