@@ -8,3 +8,10 @@ _Este repositorio es únicamente con fines educativos._
 ### Pre-requisitos 📋
 
 _Para instalar el repositorio necesitamos tener algún software previo, acontinución os dejaré los links necesarios para descargar cada uno y el comando necesario para iniciarlo una vez lo tengamos descargado._ 
+
+```
+**npm***: npm es el Node Package Manager que viene incluido y ayuda a cada desarrollo asociado a Node. Para instalarlo debemos descargar el propio node.js en el siguiente link.
+
+https://nodejs.org/en/
+
+```
