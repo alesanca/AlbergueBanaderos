@@ -54,4 +54,11 @@ npm install
 npm start
 ```
 
+## Construido con 🛠️
 
+* [React](https://reactjs.org/) - Un framework de front muy usado actualmente.
+* [Node,js](https://nodejs.org/es/) - Es un entorno de ejecución de javascript enfocado hacia el backend.
+
+## Autores ✒️
+
+_Todo este proyecto ha sido realizado por [Alejandro Sánchez](https://github.com/alesanca)_
