@@ -10,8 +10,17 @@ _Este repositorio es únicamente con fines educativos._
 _Para instalar el repositorio necesitamos tener algún software previo, acontinución os dejaré los links necesarios para descargar cada uno y el comando necesario para iniciarlo una vez lo tengamos descargado._ 
 
 ```
-**npm***: npm es el Node Package Manager que viene incluido y ayuda a cada desarrollo asociado a Node. Para instalarlo debemos descargar el propio node.js en el siguiente link.
+**npm***: npm es el Node Package Manager que viene incluido y ayuda a cada desarrollo asociado a Node. Para instalarlo 
+debemos descargar el propio node.js en el siguiente link.
 
 https://nodejs.org/en/
 
 ```
+
+Eso como lo básico para poder ejecutar el backend, además, yo para la base de datos utilizado MySQL a través de XAMP que dejaré el método de instalación aquí y al ser en modo gráfico no requiere ningún comando para iniciarlo.
+
+```
+https://www.apachefriends.org/es/index.html
+```
+
+
