@@ -57,7 +57,7 @@ npm start
 ## Construido con 🛠️
 
 * [React](https://reactjs.org/) - Un framework de front muy usado actualmente.
-* [Node,js](https://nodejs.org/es/) - Es un entorno de ejecución de javascript enfocado hacia el backend.
+* [Node.js](https://nodejs.org/es/) - Es un entorno de ejecución de javascript enfocado hacia el backend.
 
 ## Autores ✒️
 
