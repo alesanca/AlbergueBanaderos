@@ -2,8 +2,8 @@ const db = require("../models");
 const animals = db.animals;
 const Op = db.Sequelize.Op;
 
-// Retrieve all Tutorials from the database.
-exports.findAll = (req, res) => {
+// Retrieve all animals from the database.
+exports.getAll = (req, res) => {}
   animals.findAll({})
   .then(data => {
       res.send(data);
@@ -14,4 +14,19 @@ exports.findAll = (req, res) => {
         err.message || "Some error occurred while retrieving animals."
     });
   });
+
+
+// Retrieve all animals depend on the body req
+exports.getAnimals = (req , res ) => {
+  const type = req.body;
+  animals.findAll(type)
+  .then(data => {
+    res.send(data);
+})
+.catch(err => {
+  res.status(500).send({
+    message:
+      err.message || "Some error occurred while retrieving animals."
+  });
+});
 };
