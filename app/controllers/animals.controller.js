@@ -3,17 +3,18 @@ const animals = db.animals;
 const Op = db.Sequelize.Op;
 
 // Retrieve all animals from the database.
-exports.getAll = (req, res) => {}
-  animals.findAll({})
-  .then(data => {
-      res.send(data);
-  })
-  .catch(err => {
-    res.status(500).send({
-      message:
-        err.message || "Some error occurred while retrieving animals."
-    });
+exports.getAll = (req, res) => {animals.findAll({})
+.then(data => {
+    res.send(data);
+})
+.catch(err => {
+  res.status(500).send({
+    message:
+      err.message || "Some error occurred while retrieving animals."
   });
+});
+}
+  
 
 
 // Retrieve all animals depend on the body req
