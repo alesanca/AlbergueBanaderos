@@ -3,7 +3,8 @@ module.exports = app => {
   
     var router = require("express").Router();
 
-    router.get("/", animals.findAll);
+    router.get("/", animals.getAll);
+    router.get("/tipo", animals.getAnimals);
   
     app.use('/api/animals', router);
   };
