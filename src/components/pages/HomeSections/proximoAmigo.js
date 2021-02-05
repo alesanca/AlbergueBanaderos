@@ -14,16 +14,17 @@ class Adopta extends React.Component {
   state = {
     redirect: false,
   };
-  setRedirect = () => {
+  setRedirect = (type) => {
     this.setState({
       redirect: true,
+      type: type
     });
   };
   renderRedirect = () => {
     if (this.state.redirect) {
       return <Redirect to={{
         pathname: "/nuestros-animales",
-        search : "?type=Perro"
+        search : "?type=" + this.state.type,
        }}/>;
     }
   };
@@ -31,8 +32,8 @@ class Adopta extends React.Component {
     return (
       <>
         {this.renderRedirect()}
-        <button onClick={this.setRedirect}>Adopta un perro</button>
-        
+        <button onClick={() => this.setRedirect("Perro")}>Adopta un perro</button>
+        <button onClick={() => this.setRedirect("Gato")}>Adopta un gato</button>
       </>
     );
   }
