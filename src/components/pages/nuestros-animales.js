@@ -14,7 +14,6 @@ class AnimalList extends React.Component {
   componentDidMount() {
     let params = new URLSearchParams(window.location.search);
     let type = params.get("type");
-    console.log(type);
     fetch("http://localhost:8080/api/animals")
       .then((res) => res.json())
       .then((result) => {
@@ -29,7 +28,6 @@ class AnimalList extends React.Component {
   }
 
   render() {
-    console.log(this.state.animals);
     return (
       <div className="escaparate">
         {this.state.animals.map((a) => (
