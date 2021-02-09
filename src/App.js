@@ -5,7 +5,7 @@ import './assets/css/header.css';
 
 import Home from './components/pages/index';
 import Albergue from './components/pages/el-albergue';
-import NuestrosAnimales from './components/pages/nuestros-animales';
+import Animals from './components/pages/nuestros-animales';
 import Faq from './components/pages/faq';
 import Legislacion from './components/pages/legislacion';
 import Contacto from './components/pages/contacto';
@@ -25,7 +25,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/el-albergue' component={Albergue} />
-          <Route path='/nuestros-animales' component={NuestrosAnimales} />
+          <Route path='/nuestros-animales' component={Animals} />
           <Route path='/faq' component={Faq} />
           <Route path='/lesgilacion' component={Legislacion} />
           <Route path='/contacto' component={Contacto} />
