@@ -1,7 +1,11 @@
 import React from "react";
 import "../../assets/css/nuestrosAnimales.css";
 
-const NuestrosAnimales = () => <AnimalList />;
+const NuestrosAnimales = () => 
+<>
+  <Menu />
+  <AnimalList />
+</>;
 
 class AnimalList extends React.Component {
   constructor(props) {
@@ -39,6 +43,14 @@ class AnimalList extends React.Component {
       </div>
     );
   }
+}
+
+const Menu = () => {
+  return (
+    <div className="menuForm">
+      <h3>Filtrar por:</h3>
+    </div>
+  )
 }
 
 export default NuestrosAnimales;
